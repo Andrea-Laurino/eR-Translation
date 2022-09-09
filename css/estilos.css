@@ -256,7 +256,7 @@ para escribir a la par*/
     }
     .nav{
         transform:translatey(2px) ;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 768px){
@@ -264,7 +264,7 @@ para escribir a la par*/
         justify-content: start;
     }
     .nav{
-        font-size: 20px;
+        font-size: 10px;
         transform:translatey(-150px);
     }
     .nav ul li{
@@ -274,7 +274,7 @@ para escribir a la par*/
 
 @media screen and (max-width: 1500px){
     .nav{
-        font-size: 17px;
+        font-size: 15px;
     }
     .logo img{
         height: 145px;
@@ -391,7 +391,7 @@ para escribir a la par*/
     }
     .bigben p{
         height: 40rem;
-        font-size: 23px;
+        font-size: 20px;
     }
     .bigben img{
         height: 300px;
