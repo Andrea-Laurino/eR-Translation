@@ -30,12 +30,15 @@ para escribir a la par*/
     font-size:35px;
     box-shadow: 0px 1px 10px rgba(103, 151, 106, 0.5);
     z-index:100;
-   transition: all 300ms ease;
+    transition: all 300ms ease;
+    animation: heartBeat 4s infinite;
+
 }
 .btn-wsp:hover{
     text-decoration: none; 
     color:#0cd34b;
     background: #fff;
+  
 }
 
 /*colores txt*/
@@ -208,10 +211,7 @@ para escribir a la par*/
 .logo{
     justify-content: left;
 }   
-.logo img{
-    height: 145px;
-    max-width: 300px;
-}
+
 
 .nav{
     display: flex;
@@ -252,10 +252,6 @@ para escribir a la par*/
     .logo{
         justify-content: start;
     }
-    .logo img{
-        height: 100px;
-        width: 200px;
-    }
     .nav{
         transform:translatey(2px) ;
         font-size: 12px;
@@ -277,7 +273,10 @@ para escribir a la par*/
 @media screen and (max-width: 1500px){
     .nav{
         font-size: 17px;
-
+    }
+    .logo img{
+        height: 145px;
+        max-width: 300px;
     }
 }
 /*::::index::::::*/
