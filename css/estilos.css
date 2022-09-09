@@ -79,6 +79,7 @@ para escribir a la par*/
     text-align: center;
     margin: 20px;
     padding: 10px;
+   
 }
 /*imagenes*/
 .imagen1{
@@ -89,7 +90,7 @@ para escribir a la par*/
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
-    background-color: #BEE9E8;
+    background:linear-gradient(to bottom,#229290,#78bdbc,#BEE9E8);
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -180,6 +181,7 @@ para escribir a la par*/
     align-items: center;
     margin: 20px;
     padding: 10px;
+    animation:fadeIn 2s ease;
 
 }
 
@@ -458,6 +460,9 @@ para escribir a la par*/
     padding: 10px;
 
 }
+.servicio h1{
+    animation:fadeIn 2s ease;
+}
 .servicio p{
     color:#1B4965;
     font-size: 20px;
@@ -490,6 +495,7 @@ para escribir a la par*/
     width: 50%;
     height: 50%;
     object-fit: cover;
+    
 }
 @media (min-width:768px) {
     .servicio-conteiner{
