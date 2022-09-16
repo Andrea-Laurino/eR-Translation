@@ -152,6 +152,9 @@ para escribir a la par*/
         grid-gap:30px;
         padding: 35px 0px;
     }
+    .pie-pagina .grupo-1 .red-social a{
+        width: 45px;
+    }
     .pie-pagina .grupo-1 .box .menu{
         font-size: 20px;
         align-items: left;
@@ -219,7 +222,7 @@ para escribir a la par*/
 }
 .titulo {
     background-color: #CAE9FF;
-    color: #1B4965;
+    color: #26678f;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -232,8 +235,11 @@ para escribir a la par*/
 
 }
 .h1, h1 {
-    font-size: 50px;
+    font-size: 45px;
        
+}
+.h2, h2 {
+    font-size: 1em;
 }
 .bg-cel{
     background-color: #bee9e8;
@@ -251,21 +257,47 @@ para escribir a la par*/
     width: 100%;
     padding:20px ;
 }
-
-
-@media screen and (min-width:425px){
-    .h1, h1 {
-        font-size: 60px;
-           
-    }
-    .texto{
-        font-size: x-large;
-        font-weight: 400;
-        padding: 3px;
-    }
-    .texto h2{
+.texto{
+    font-size: x-large;
+    font-weight: 400;
+    padding: 3px;
+}
+.texto h2{
         font-weight: 600;
     }
+    .navbar-toggler {
+        font-size: 15px;
+        line-height: 1rem;
+        color: #1B4965;
+        background-color: #e6f0f7 ; 
+        border: var(--bs-border-width) solid #1B4965;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 2.1em;
+        vertical-align:bottom ;
+        background-image: url(../imagenes/menu1.png);
+    }
+    .nav-link {
+        color: #bee9e8;
+        background-color:#26678f;
+        border-color: #174144;
+        font-size: medium;
+        width: 12rem;
+        margin-top: 2px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .nav-link:focus, .nav-link:hover {
+        color: #bee9e8;
+    }
+    
+@media screen and (min-width:425px){
+    .h1, h1 {
+        font-size: 45px;      
+    }
+
     .video{
         width: 100%;
         padding: 1px;
@@ -278,7 +310,11 @@ para escribir a la par*/
 @media screen and (min-width:768px){
     .indexFlex{
     grid-template-columns: 50% 50%;
- }
+    }
+    .h2, h2 {
+        font-size: 1.3em;
+    }
+    
     .texto{
         font-size: x-large;
         font-weight: 500;
@@ -300,14 +336,9 @@ para escribir a la par*/
         grid-gap: 10px;
     }
     .nav-link {
-        color: #bee9e8;
-        background-color:#1b4965 ;
-        border-color: #44babe;
+        flex-direction: end;
     }
-    .nav-link:focus, .nav-link:hover {
-        color: #bee9e8;
-    }
-
+   
     .indexFlex p{
         font-size: larger;
         padding: 10px;
@@ -324,6 +355,15 @@ para escribir a la par*/
     }
 }
 @media screen and (min-width:1440px){
+    .nav-link {
+        color: #bee9e8;
+        background-color:#26678f;
+        border-color: #44babe;
+    }
+    .nav-link:focus, .nav-link:hover {
+        color: #bee9e8;
+    }
+
     .indexFlex{
         grid-template-columns: 55% 45%;
         grid-gap: 15px;
@@ -404,7 +444,6 @@ para escribir a la par*/
     align-items: center;
     margin: 20px;
     padding: 10px;
-
 }
 .servicio h1{
     animation:fadeIn 2s ease;
@@ -417,44 +456,32 @@ para escribir a la par*/
     padding: 15px 10px;
     text-align: left;
 }
-
-.servicio-contenedor{
-    width: 90%;
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-auto-rows: 250px;
-    padding: 25px;
-    grid-gap: 10px;
-    margin: 1.6em auto;
-
+.btn-primary{
+    --bs-btn-color: #1b4965;
+    --bs-btn-bg: #62b6cb;
+    --bs-btn-border-color: #62b6cb;
+    --bs-btn-hover-color: #62b6cb;
+    --bs-btn-hover-bg: #1b4965;
+    --bs-btn-hover-border-color: #1b4965;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #1b4965;
+    --bs-btn-active-bg: #bee9e8;
+    --bs-btn-active-border-color: #bee9e8;
+    --bs-btn-active-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #1b4965;
+    --bs-btn-disabled-bg: #62b6cb;
+    --bs-btn-disabled-border-color: #62b6cb;
+    transition: all 0.3s ease-in-out;
+}      
+.card-img, .card-img-bottom, .card-img-top {
+    width: 100%;
+    height: 250px;
 }
-.servicio__item{
-    color:#1B4965;
-    font-size: 20px;
-    font-weight: 300;
-    margin: 15px 10px;
-    padding: 15px 10px;
-    text-align: left;
-}
-.servicio__img{
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
+
     
-}
-@media (min-width:768px) {
-    .servicio-contenedor{
-        grid-template-columns: repeat(2, 0.5fr); 
-        grid-auto-rows: 400px; 
-    }
-    .servicio__img{
-        width: 70%;
-        height: 70%;
-        border: #444 solid;
-        margin: 30px 20px;
-    }
-}
+        
+    
+
 /*op.laborales*/
 .menuJob{
     display: flex;
