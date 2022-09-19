@@ -50,13 +50,18 @@
             <div><a><img src="../imagenes/icon-eng.png"></a></div> <!--castellano-->
         </div>
     </div> 
-<main class="menuJob"> 
+<main class="menuJob "> 
     <h1 class="h1">Oportunidades Laborales</h1>
     <h2>Te estamos buscando! Se Parte de Nuestros Colaboradores</h2>
-</main>
-<main class="form1">
-   <!-- <img src="../imagenes/england.jpg"class="Bigben" width="100%">-->
-    <form class="lista" action="">
+</main>   
+
+<main class="form container-fluid mx-auto" style="width: 200px;">
+  <div class="row"> 
+    <div class="row-lg-6 row-sm-12 alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Cuidado!</strong> No te olvides de adjuntar tu Curriculum Actualizado
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <form class="lista border border-secondary col-lg-6 col-sm-12 d-flex justify-content-center" action="">
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre"class="campo">
 
@@ -76,21 +81,25 @@
         </select>
             <label for="asunto">Asunto</label>  
             <input type="text" name="asunto" class="campo">
-
             <label for="correo">Correo electrónico</label>  
             <input type="email" name="correo"class="campo">
+            <div class="input-group mt-4 fs-2">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+            </div>  
+            
             <p>Mensaje</p>
             <textarea name="mensaje" class="campo" cols="40" rows="10"></textarea>
-        <p class="center-content"><input type="submit" class="btn btn-acqua" value="Enviar Datos"></p>  
-        </form>     
+        <p class="center-content pt-5"><input type="submit" class="btn btn-acqua" value="Enviar Datos"></p>  
+    </form>     
+  </div>
 </main>
-<main class="nuestroStaff">
+
+<main class="nuestroStaff container-fluid">
     <h3>Contanos porque queres formar parte de Nuestros Staff</h3>    
     <h4>Te invitamos a disfrutar de los lugares mas bellos y famosos de Londres, Reino Unidos. </h4> 
-    <div><iframe  width="560" height="415" src="https://www.youtube.com/embed/2aLqVb22LGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    
 </main> 
-<hr>
-
 <!--::::Pie de Pagina::::::-->
 <footer class="pie-pagina">
     <div class="grupo-1">
