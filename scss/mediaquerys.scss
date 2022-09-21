@@ -95,11 +95,10 @@
 /*contacto*/
 @media screen and (max-width:768px){
     .contact__contenedor{
-        display: inline;
+        grid-template-columns: 1fr;
         iframe{
             height: 350px;
             width: 350px;
-            
         }
     }
     .h1{
