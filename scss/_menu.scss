@@ -1,0 +1,84 @@
+.bg-fondo{
+    background: url(../imagenes/f.menu.jpg);
+    background-size: cover;
+}
+.titulo {
+    background-color:$colorQuinario;
+    color: #26678f;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.h1, h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    animation:fadeIn 2s ease;
+}
+
+.h2, h2 {
+    font-size: 1em;
+}
+.bg-cel{
+    background-color:$colorTerciario;
+}
+.indexFlex{
+    background-color:$colorQuinario;
+    color: $colorPrincipal;
+    padding: 20px; 
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.video{
+    width: 100%;
+    padding:20px ;
+}
+.texto{
+    font-size: x-large;
+    font-weight: 400;
+    padding: 3px;
+    h2{
+        font-weight: 600;
+    }
+}
+.navbar-toggler {
+        font-size: 15px;
+        line-height: 1rem;
+        color: $colorPrincipal;
+        background-color: #e6f0f7 ; 
+        border: var(--bs-border-width) solid $colorPrincipal;
+    }
+.navbar-toggler-icon {
+            display: inline-block;
+            width: 1.5em;
+            height: 2.1em;
+            vertical-align:bottom ;
+            background-image: url(../imagenes/menu1.png);
+    }
+.nav-link {
+        color: $colorTerciario;
+        background-color:#26678f;
+        border-color: #174144;
+        font-size: medium;
+        width: 12rem;
+        margin-top: 2px;
+        border-radius: 5px;
+        text-align: center;
+        &:focus, &:hover {
+                color: $colorTerciario;
+        }
+} 
+@media screen and (min-width:425px){
+    .h1, h1 {
+        font-size: 45px;      
+    }
+    .video{
+        width: 100%;
+        padding: 1px;
+    }
+    .titulo{
+        font-size: x-large;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,46 @@
+@import "variables";
+@import "mediaquerys";
+@import "menu";
+@import "footer";
+@import "whatsapp";
+@import "contacto";
+@import "empresa";
+@import "servicios";
+@import "opLaborales";
+
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+#fondoNeutro{
+    background-color: $colorQuinario;
+}
+.banderas{
+    display: flex;
+    flex-direction: row;
+    img{
+        margin-left:10px;
+    }
+}
+.row {
+    color:$colorPrincipal;
+}
+/*titulo PPAL de todas la pag*/
+.h1{
+    color: $colorSecundario;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    animation:fadeIn 2s ease;
+
+}

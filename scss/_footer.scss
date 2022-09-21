@@ -1,0 +1,58 @@
+/*footer*/
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background:linear-gradient(to bottom,#229290,#78bdbc,$colorTerciario);
+    .grupo-1{
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:50px;
+        padding: 45px 30px;
+        .box{
+            .menu{
+                color:$colorSecundario;
+                margin-bottom: 25px;
+                font-size: 25px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                a{
+                   color: $colorPrincipal;
+                   font-size: 400;
+                }
+            }
+            h2{
+                color:$colorPrincipal;
+                margin-bottom: 10px;
+            }
+        }
+        .red-social a{
+            display: inline-block;
+            text-decoration: none;
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            color: #fff;
+            margin-right: 10px;
+            background-color:$colorPrincipal;
+            text-align: center;
+            transition: all 300ms ease;
+            &:hover{
+                color: rgb(0, 255, 213);
+            }
+        }
+    }
+    .grupo-2{
+        background-color: $colorPrincipal;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+        small{
+            font-size: 15px;
+        }
+    }
+}
+

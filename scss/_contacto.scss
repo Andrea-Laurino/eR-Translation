@@ -1,0 +1,37 @@
+.contact__contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 25px;
+    flex-wrap: wrap;
+    iframe{
+        height: 700px;
+        padding: 50px;
+        margin:10px;
+    }
+}
+.contacto{
+    color: #1B4965;
+    font-size: 20px;
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    flex-direction: column;
+    p{
+        margin: 5px 10px;
+        padding: 10px;
+        font-family: 'Source Serif Pro', serif;
+        color: #1B4965;
+        font-size: x-large;
+        font-weight: 600;
+        height: 10rem; 
+        width: 60%;
+    }
+}
+.colorH2{
+    color: $colorCuaternario;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
