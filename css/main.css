@@ -73,17 +73,19 @@
 @media screen and (max-width: 768px) {
   .contact__contenedor {
     grid-template-columns: 1fr; }
-    .contact__contenedor iframe {
-      height: 350px;
-      width: 350px; }
   .h1 {
     font-size: 40px; }
   .contacto {
-    height: 200px; }
+    height: 100px; }
     .contacto p {
-      font-size: medium;
-      height: 8rem;
-      width: 30%; } }
+      font-size: medium; } }
+
+@media screen and (max-width: 1024px) {
+  .contact__contenedor iframe {
+    height: 750px;
+    width: 750px; }
+  .contacto p {
+    font-size: x-large; } }
 
 /*servicios*/
 @media screen and (min-width: 1200px) {
@@ -251,7 +253,7 @@
   padding: 15px;
   flex-wrap: nowrap; }
   .contact__contenedor iframe {
-    width: auto;
+    width: 100%;
     padding: 10px; }
 
 .contacto {
@@ -264,10 +266,10 @@
     margin: 10px;
     padding: 10px;
     font-family: 'Source Serif Pro', serif;
-    color: #1B4965;
-    font-size: x-large;
+    color: #1b4965;
+    font-size: 20px;
     font-weight: 600;
-    width: 60%; }
+    width: 100%; }
 
 .colorH2 {
   color: #5fa8d3;

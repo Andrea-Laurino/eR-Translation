@@ -2,7 +2,7 @@
     padding: 15px;
     flex-wrap: nowrap;
     iframe{
-       width: auto;
+        width: 100%;
         padding: 10px;
     }
 }
@@ -16,10 +16,10 @@
         margin:10px;
         padding: 10px;
         font-family: 'Source Serif Pro', serif;
-        color: #1B4965;
-        font-size: x-large;
+        color: $colorPrincipal;
+        font-size: 20px;
         font-weight: 600;
-        width: 60%;
+        width: 100%;
     }
 }
 .colorH2{
