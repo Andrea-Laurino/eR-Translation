@@ -249,12 +249,10 @@
     color: #0cd34b;
     background: #fff; }
 
-.contact__contenedor {
-  padding: 15px;
+.contact_contenedor {
   flex-wrap: nowrap; }
-  .contact__contenedor iframe {
-    width: 100%;
-    padding: 10px; }
+  .contact_contenedor iframe {
+    width: 100%; }
 
 .contacto {
   color: #1B4965;
