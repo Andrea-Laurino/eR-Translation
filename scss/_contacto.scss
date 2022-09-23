@@ -18,9 +18,9 @@
     display: flex;
     flex-direction: column;
     p{
-       @include sizes ($colorPrincipal, 10px, left, 600, 5px);
+       @include sizes ($colorPrincipal, 15px, left, 600, 5px);
         font-family: 'Source Serif Pro', serif;
-        width: 100%;
+        width: 80%;
         height: 150px;
     }
 }

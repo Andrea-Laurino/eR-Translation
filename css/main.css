@@ -168,12 +168,12 @@
   flex-direction: column; }
   .contacto p {
     color: #1b4965;
-    font-size: 10px;
+    font-size: 15px;
     text-align: left;
     font-weight: 600;
     padding: 5px;
     font-family: 'Source Serif Pro', serif;
-    width: 100%;
+    width: 80%;
     height: 150px; }
 
 .colorH2 {
@@ -683,7 +683,7 @@ form {
   .h1 {
     font-size: 40px; }
   .contacto {
-    height: 100px; }
+    height: 200px; }
     .contacto p {
       font-size: medium; } }
 
@@ -692,7 +692,7 @@ form {
     height: 750px;
     width: 900px; }
   .contacto p {
-    font-size: x-large; } }
+    font-size: large; } }
 
 /*servicios*/
 @media screen and (min-width: 1200px) {
