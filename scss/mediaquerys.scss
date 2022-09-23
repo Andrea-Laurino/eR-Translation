@@ -94,8 +94,9 @@
 
 /*contacto*/
 @media screen and (max-width:768px){
-    .contact__contenedor{
+    .contact_contenedor{
         grid-template-columns: 1fr;
+       
     }
     .h1{
         font-size: 40px;
@@ -108,10 +109,10 @@
     }
 }
 @media screen and (max-width:1024px){
-    .contact__contenedor{
+    .contact_contenedor{
         iframe{
             height: 750px;
-            width: 750px;
+            width: 900px;
         }
     }
     .contacto{
