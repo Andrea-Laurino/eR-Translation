@@ -1,107 +1,3 @@
-/*menu*/
-@media screen and (min-width: 768px) {
-  .indexFlex {
-    grid-template-columns: 50% 50%; }
-  .h2, h2 {
-    font-size: 1.3em; }
-  .texto {
-    font-size: x-large;
-    font-weight: 500;
-    width: 100%;
-    padding: 3px; }
-    .texto h2 {
-      font-weight: 600; }
-  .video {
-    width: 100%;
-    padding: 9px; } }
-
-@media screen and (min-width: 1024px) {
-  .indexFlex {
-    grid-gap: 10px; }
-    .indexFlex p {
-      font-size: larger;
-      padding: 10px; }
-  .nav-link {
-    flex-direction: end; }
-  .video {
-    padding: 10px; }
-  .texto {
-    font-size: large;
-    padding: 5px; }
-    .texto h2 {
-      font-weight: 700; } }
-
-@media screen and (min-width: 1440px) {
-  .nav-link {
-    color: #bee9e8;
-    background-color: #26678f;
-    border-color: #44babe; }
-    .nav-link:focus, .nav-link:hover {
-      color: #bee9e8; }
-  .indexFlex {
-    grid-template-columns: 55% 45%;
-    grid-gap: 15px; }
-  .texto {
-    font-size: medium;
-    width: 100%;
-    padding: 10px; }
-    .texto h2 {
-      font-weight: 900;
-      padding: 20px; }
-  .video {
-    width: 100%;
-    padding: 20px; } }
-
-/*footer*/
-@media screen and (max-width: 800px) {
-  .pie-pagina .grupo-1 {
-    width: 65%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
-    padding: 35px 0px; }
-    .pie-pagina .grupo-1 .red-social a {
-      width: 45px; }
-    .pie-pagina .grupo-1 .box .menu {
-      font-size: 20px;
-      align-items: left; } }
-
-@media screen and (max-width: 350px) {
-  .pie-pagina .grupo-1 {
-    width: 45%; } }
-
-/*contacto*/
-@media screen and (max-width: 768px) {
-  .contact_contenedor {
-    grid-template-columns: 1fr; }
-  .h1 {
-    font-size: 40px; }
-  .contacto {
-    height: 100px; }
-    .contacto p {
-      font-size: medium; } }
-
-@media screen and (max-width: 1024px) {
-  .contact_contenedor iframe {
-    height: 750px;
-    width: 900px; }
-  .contacto p {
-    font-size: x-large; } }
-
-/*servicios*/
-@media screen and (min-width: 1200px) {
-  .h2, h2 {
-    font-size: 1.3em; } }
-
-@media screen and (min-width: 650px) {
-  .presu {
-    display: grid;
-    grid-template-columns: 50% 50%; } }
-
-@media screen and (min-width: 450px) {
-  .img-thumbnail {
-    margin: 15px;
-    max-width: 90%; } }
-
 .bg-fondo {
   background: url(../imagenes/f.menu.jpg);
   background-size: cover; }
@@ -255,13 +151,14 @@
     width: 100%;
     height: 350px; }
   .contact_contenedor p {
-    font-family: 'Source Serif Pro', serif;
     color: #1b4965;
-    height: 100px;
-    width: 350px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
     padding: 10px;
-    font-size: 10px;
-    font-weight: 600; }
+    font-family: 'Source Serif Pro', serif;
+    height: 100px;
+    width: 350px; }
 
 .contacto {
   color: #1B4965;
@@ -270,11 +167,12 @@
   display: flex;
   flex-direction: column; }
   .contacto p {
+    color: #1b4965;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
     padding: 10px;
     font-family: 'Source Serif Pro', serif;
-    color: #1b4965;
-    font-size: 20px;
-    font-weight: 600;
     width: 100%;
     height: 150px; }
 
@@ -308,7 +206,7 @@
     text-align: center; }
   .miEmpresa p {
     color: #1b4965;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     font-weight: 400;
     padding: 10px;
@@ -316,6 +214,14 @@
   .miEmpresa img {
     margin: 30px;
     padding: 30px; }
+
+.gallery-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 150px;
+  padding: 25px;
+  grid-gap: 10px;
+  flex-wrap: nowrap; }
 
 .gallery-contenedor {
   display: grid;
@@ -337,13 +243,13 @@
   grid-column-start: span 2; }
 
 .gallery__item:nth-child(10) {
-  grid-column-start: span 3; }
+  grid-column-start: span 2; }
 
 .gallery__item:nth-child(1) {
   grid-row-start: span 2; }
 
 .gallery__item:nth-child(3) {
-  grid-row-start: span 2; }
+  grid-row-start: span 1; }
 
 .gallery__item:nth-child(7) {
   grid-row-start: span 2; }
@@ -355,34 +261,41 @@
     grid-row-start: span 2; }
   .gallery__item:nth-child(2) {
     grid-row-start: span 2; }
+  .gallery__item:nth-child(3) {
+    grid-row-start: span 2; }
   .gallery__item:nth-child(6) {
     grid-row-start: span 3; }
   .gallery__item:nth-child(10) {
-    grid-column-start: span 4; }
+    grid-column-start: span 3; }
   .gallery__item:nth-child(5) {
+    grid-column-start: span 2; }
+  .gallery__item:nth-child(7) {
+    grid-row-start: span 2; }
+  .gallery__item:nth-child(8) {
     grid-column-start: span 2; } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1400px) {
   .gallery-contenedor {
     grid-template-columns: repeat(5, 1fr);
     width: 70%;
     margin: auto;
     grid-auto-rows: 200px; }
-  .gallery__item:nth-child(3) {
-    grid-column-start: span 2; }
-  .gallery__item:nth-child(2) {
-    grid-column-start: span 3; }
   .gallery__item:nth-child(1) {
     grid-column-start: span 2; }
+  .gallery__item:nth-child(2) {
+    grid-column-start: span 2; }
   .gallery__item:nth-child(5) {
-    grid-column-start: span 2;
+    grid-row-start: span 2;
+    grid-column-start: span 2; }
+  .gallery__item:nth-child(6) {
+    grid-row-start: span 1;
+    grid-column-start: span 2; }
+  .gallery__item:nth-child(7) {
+    grid-column-start: span 2; }
+  .gallery__item:nth-child(8) {
     grid-row-start: span 2; }
   .gallery__item:nth-child(10) {
-    grid-column-start: span 5; }
-  .gallery__item:nth-child(6) {
-    grid-column-start: span 3; }
-  .gallery__item:nth-child(7) {
-    grid-column-start: span 2; } }
+    grid-column-start: span 3; } }
 
 .servicio {
   color: #62b6cb;
@@ -398,11 +311,11 @@
     animation: fadeIn 2s ease; }
   .servicio p {
     color: #1b4965;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: left;
     font-weight: 300;
-    margin: 15px 10px;
     padding: 15px 10px;
-    text-align: left; }
+    margin: 15px 10px; }
 
 .btn {
   background-color: #5fa8d3;
@@ -691,6 +604,110 @@ form {
   .nuestroStaff h5 {
     color: #ccc;
     background-color: #444; }
+
+/*menu*/
+@media screen and (min-width: 768px) {
+  .indexFlex {
+    grid-template-columns: 50% 50%; }
+  .h2, h2 {
+    font-size: 1.3em; }
+  .texto {
+    font-size: x-large;
+    font-weight: 500;
+    width: 100%;
+    padding: 3px; }
+    .texto h2 {
+      font-weight: 600; }
+  .video {
+    width: 100%;
+    padding: 9px; } }
+
+@media screen and (min-width: 1024px) {
+  .indexFlex {
+    grid-gap: 10px; }
+    .indexFlex p {
+      font-size: larger;
+      padding: 10px; }
+  .nav-link {
+    flex-direction: end; }
+  .video {
+    padding: 10px; }
+  .texto {
+    font-size: large;
+    padding: 5px; }
+    .texto h2 {
+      font-weight: 700; } }
+
+@media screen and (min-width: 1440px) {
+  .nav-link {
+    color: #bee9e8;
+    background-color: #26678f;
+    border-color: #44babe; }
+    .nav-link:focus, .nav-link:hover {
+      color: #bee9e8; }
+  .indexFlex {
+    grid-template-columns: 55% 45%;
+    grid-gap: 15px; }
+  .texto {
+    font-size: medium;
+    width: 100%;
+    padding: 10px; }
+    .texto h2 {
+      font-weight: 900;
+      padding: 20px; }
+  .video {
+    width: 100%;
+    padding: 20px; } }
+
+/*footer*/
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 65%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px; }
+    .pie-pagina .grupo-1 .red-social a {
+      width: 45px; }
+    .pie-pagina .grupo-1 .box .menu {
+      font-size: 20px;
+      align-items: left; } }
+
+@media screen and (max-width: 350px) {
+  .pie-pagina .grupo-1 {
+    width: 45%; } }
+
+/*contacto*/
+@media screen and (max-width: 768px) {
+  .contact_contenedor {
+    grid-template-columns: 1fr; }
+  .h1 {
+    font-size: 40px; }
+  .contacto {
+    height: 100px; }
+    .contacto p {
+      font-size: medium; } }
+
+@media screen and (max-width: 1024px) {
+  .contact_contenedor iframe {
+    height: 750px;
+    width: 900px; }
+  .contacto p {
+    font-size: x-large; } }
+
+/*servicios*/
+@media screen and (min-width: 1200px) {
+  .h2, h2 {
+    font-size: 1.3em; } }
+
+@media screen and (min-width: 650px) {
+  .presu {
+    display: grid;
+    grid-template-columns: 50% 50%; } }
+
+@media screen and (min-width: 450px) {
+  .img-thumbnail {
+    margin: 15px;
+    max-width: 90%; } }
 
 html {
   font-size: 62.5%; }

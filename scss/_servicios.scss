@@ -12,12 +12,8 @@
         animation:fadeIn 2s ease;
     }
     p{
-        color:$colorPrincipal;
-        font-size: 20px;
-        font-weight: 300;
+        @include sizes ($colorPrincipal, 15px, left, 300, 15px 10px);
         margin: 15px 10px;
-        padding: 15px 10px;
-        text-align: left;
     }
 }
 .btn {
@@ -71,9 +67,15 @@
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
  
 }
-.card-img, .card-img-bottom, .card-img-top {
+.card-img{
     width: 100%;
     height: 250px;
+}
+.card-img-bottom{
+    @extend .card-img;
+}
+.card-img-top {
+    @extend .card-img;
 }
 .card-body{
     font-family: 'Source Serif Pro', serif;

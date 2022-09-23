@@ -3,3 +3,12 @@ $colorSecundario: #62b6cb;
 $colorTerciario: #bee9e8;
 $colorCuaternario: #5fa8d3;
 $colorQuinario: #cae9ff;
+
+@mixin sizes ($color, $fz, $fw, $ta, $padding,){
+color: $color;
+font-size: $fz;
+text-align: $fw;
+font-weight: $ta;
+padding: $padding;
+}
+
