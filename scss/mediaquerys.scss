@@ -1,4 +1,11 @@
 /*menu*/
+
+@media screen and (min-width:425px){
+    .video{
+        width: 100%;
+        padding: 1px;
+    }
+}
 @media screen and (min-width:768px){
     .indexFlex{
     grid-template-columns: 50% 50%;
@@ -132,10 +139,12 @@
     }
 
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 425px) {
     .img-thumbnail {
         margin: 15px;
         max-width: 90%;    
-   
-}
+    }
+    .text{
+        font-size: 45px; 
+    }
 }

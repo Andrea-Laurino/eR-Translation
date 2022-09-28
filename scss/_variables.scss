@@ -12,3 +12,22 @@ font-weight: $ta;
 padding: $padding;
 }
 
+$estilos: (
+    color: $colorSecundario,
+    familia:'Source Serif Pro' serif,
+    peso: 900,
+    alineacion: center,
+    fuente: 50px,
+    padding: 10px,
+    animacion: fadein 2s ease,
+);
+
+.titulo{
+    color: map-get($estilos , color);
+    text-align: map-get($estilos, alineacion);
+    font-size: map-get($estilos, fuente);
+    font-family: map-get($estilos, familia);
+    font-weight: map-get($estilos, peso);
+    animation: map-get($estilos, animacion);
+    padding: map-get($estilos, padding);
+}

@@ -1,16 +1,6 @@
 .servicio{
-    color: $colorSecundario;
-    font-size: 30px;
-    font-weight: 900;
-    font-family: 'Source Serif Pro', serif;
-    text-align: center;
     justify-content: center;
-    align-items: center;
     margin: 20px;
-    padding: 10px;
-    h1{
-        animation:fadeIn 2s ease;
-    }
     p{
         @include sizes ($colorPrincipal, 15px, left, 300, 15px 10px);
         margin: 15px 10px;

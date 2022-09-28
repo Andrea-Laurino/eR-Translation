@@ -1,21 +1,15 @@
+.titulo {
+  color: #62b6cb;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Source Serif Pro" serif;
+  font-weight: 900;
+  animation: fadein 2s ease;
+  padding: 10px; }
+
 .bg-fondo {
   background: url(../imagenes/f.menu.jpg);
   background-size: cover; }
-
-.titulo {
-  background-color: #cae9ff;
-  color: #62b6cb;
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 900;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 10px; }
-
-.h1, h1 {
-  font-size: 45px;
-  font-weight: bolder;
-  animation: fadeIn 2s ease; }
 
 .h2, h2 {
   font-size: 1em; }
@@ -67,16 +61,6 @@
   text-align: center; }
   .nav-link:focus, .nav-link:hover {
     color: #bee9e8; }
-
-@media screen and (min-width: 425px) {
-  .h1, h1 {
-    font-size: 25px; }
-  .video {
-    width: 100%;
-    padding: 1px; }
-  .titulo {
-    font-size: x-large;
-    font-weight: 700; } }
 
 /*footer*/
 /*:::::Pie de Pagina*/
@@ -153,7 +137,7 @@
     width: 100%;
     height: 350px; }
   .contact_contenedor .contacto {
-    color: #1B4965;
+    color: #1b4965;
     font-size: 20px;
     font-family: 'Source Serif Pro', serif;
     display: flex;
@@ -182,30 +166,21 @@
   align-items: left;
   padding: 20px;
   font-family: 'Source Serif Pro', serif; }
-  .miEmpresa h1 {
-    color: #62b6cb;
-    font-size: 60px;
-    font-weight: 900;
-    justify-content: center;
-    text-align: center;
-    margin: 20px;
-    padding: 20px; }
   .miEmpresa h2 {
     color: #1b4965;
     font-size: 30px;
-    margin: 10px;
     padding: 10px;
     text-align: center; }
   .miEmpresa p {
     color: #1b4965;
-    font-size: 15px;
+    font-size: 17px;
     text-align: left;
     font-weight: 400;
     padding: 10px;
-    width: 90%; }
+    width: 100%; }
   .miEmpresa img {
-    margin: 30px;
-    padding: 30px; }
+    margin: 10px;
+    padding: 5px; }
 
 .gallery-contenedor {
   display: grid;
@@ -299,17 +274,8 @@
     grid-column-start: span 5; } }
 
 .servicio {
-  color: #62b6cb;
-  font-size: 30px;
-  font-weight: 900;
-  font-family: 'Source Serif Pro', serif;
-  text-align: center;
   justify-content: center;
-  align-items: center;
-  margin: 20px;
-  padding: 10px; }
-  .servicio h1 {
-    animation: fadeIn 2s ease; }
+  margin: 20px; }
   .servicio p {
     color: #1b4965;
     font-size: 15px;
@@ -453,13 +419,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column; }
-  .menuJob h1 {
-    color: #62b6cb;
-    font-weight: 900;
-    font-family: 'Source Serif Pro', serif;
-    text-align: center;
-    padding: 10px;
-    animation: fadeIn 2s ease; }
   .menuJob h2 {
     color: #26678f;
     font-size: 25px;
@@ -549,6 +508,11 @@ form {
     background-color: #444; }
 
 /*menu*/
+@media screen and (min-width: 425px) {
+  .video {
+    width: 100%;
+    padding: 1px; } }
+
 @media screen and (min-width: 768px) {
   .indexFlex {
     grid-template-columns: 50% 50%; }
@@ -647,10 +611,12 @@ form {
     display: grid;
     grid-template-columns: 50% 50%; } }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 425px) {
   .img-thumbnail {
     margin: 15px;
-    max-width: 90%; } }
+    max-width: 90%; }
+  .text {
+    font-size: 45px; } }
 
 html {
   font-size: 62.5%; }
@@ -672,19 +638,6 @@ html {
 
 .row {
   color: #1b4965; }
-
-/*titulo PPAL de todas la pag*/
-.h1 {
-  color: #62b6cb;
-  font-size: 40px;
-  font-weight: 900;
-  font-family: 'Source Serif Pro', serif;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  padding: 10px;
-  animation: fadeIn 2s ease; }
 
 .imagen1 {
   margin: 50px, 25px, 15px, 10px;

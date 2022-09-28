@@ -2,21 +2,6 @@
     background: url(../imagenes/f.menu.jpg);
     background-size: cover;
 }
-.titulo {
-    background-color:$colorQuinario;
-    color: $colorSecundario;
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 900;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 10px;
-}
-.h1, h1 {
-    font-size: 45px;
-    font-weight: bolder;
-    animation:fadeIn 2s ease;
-}
 
 .h2, h2 {
     font-size: 1em;
@@ -71,16 +56,3 @@
                 color: $colorTerciario;
         }
 } 
-@media screen and (min-width:425px){
-    .h1, h1 {
-        font-size: 25px;      
-    }
-    .video{
-        width: 100%;
-        padding: 1px;
-    }
-    .titulo{
-        font-size: x-large;
-        font-weight: 700;
-    }
-}

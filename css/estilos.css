@@ -1,40 +1,4 @@
 
-
-/*colores txt*/
-.colorCeleste{
-    color: #6cacff;
-    font-weight: bold;
-    font-size: 25px;
-    font-style: italic;
-    font-family: 'Source Serif Pro', serif;
-    line-height: 2;
-    text-decoration:underline;
-    text-decoration-color: #6cacff;
-    text-align: center;
-}
-
-
-.colorTitulo{
-    color: #62B6CB;
-    font-size: 60px;
-    font-weight: 900;
-    font-family: 'Source Serif Pro', serif;
-    text-align: center;
-    height: 100px;
-    width: 500px;
-    margin: 20px; 
-    padding: 20px;
-}
-.colorH2{
-    color: #5FA8D3;
-    font-size: 25px;
-    font-weight: 900;
-    font-family: 'Source Serif Pro', serif;
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-}
-
 /*contacto*/
 /*.input-group{
     font-family: 'Source Serif Pro', serif;
