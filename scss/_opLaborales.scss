@@ -61,8 +61,11 @@
 .lista{
     display: flex;
     flex-direction: column ;
+    width: auto;
 }
-
+.alert{
+    width: auto;
+}
 form {
     background-color: #cdebea;
     width: 100%;

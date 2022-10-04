@@ -466,7 +466,11 @@
 
 .lista {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  width: auto; }
+
+.alert {
+  width: auto; }
 
 form {
   background-color: #cdebea;
