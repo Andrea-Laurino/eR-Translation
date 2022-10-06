@@ -74,7 +74,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
-    padding: 45px 30px; }
+    padding: 45px 30px;
+    text-decoration: none; }
     .pie-pagina .grupo-1 .box .menu {
       color: #62b6cb;
       margin-bottom: 25px;
