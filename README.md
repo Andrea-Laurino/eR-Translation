@@ -10,31 +10,31 @@ La description, las keywords, Titulos y Encabezados:
 <meta name="keywords" content= “....”>
 <meta name="description"  content= “....”>
 
-index.html
+-index.html
 Description: ƎR Translations - Breaking Barriers Together - Empresa dedicada a la traducción de inglés - Traducción de Documentos.
 keywords: Traducciones, inglés, Translation, inglaterra, Argentina
 Título: le agregue al título que ya tenía “Breaking Barriers Together”.
 Encabezado: para el encabezado del h1 utilicé el texto “ƎR.Translations”y en los restantes títulos h2 y h3.
 
-contacto.html
+-contacto.html
 Description: ƎR Translations - Contáctenos ante cualquier necesidad, Somos una empresa dedicada a las traducciones
 Keywords: contacto, datos, ubicación, ingles, Argentina, mapa, email, teléfono.
 Título: le agregue al título que ya tenía “Contacto”
 Encabezado: para el encabezado del h1 utilicé el texto “ƎR.Translations”y en los restantes títulos h2 y h3.
 
-servicio.html
+-servicio.html
 Description: ƎR Translations - Ofrecemos una amplia solución a tus necesidades, no dudes en consultarnos.
 Keywords: Traducciones, servicio, técnico, comercial, Presupuesto
 Título: le agregue al título que ya tenía “Mis Servicios”
 Encabezado: para el encabezado del h1 utilicé el texto “Nuestros Servicios”y en los restantes títulos h2 y h3.
 
-oportunidades laborales.html
+-oportunidades laborales.html
 Description: ƎR Translations - No pierdas la posibilidad de ser parte de una empresa consolidada en traducciones.
 Keywords: Traducciones, inglés, trabajo, Oferta Laboral, Curriculum Vitae, empleo.
 Título: le agregue al título que ya tenía “Oportunidades Laborales”
 Encabezado: para el encabezado del h1 utilicé el texto “Oportunidades Laborales”y en los restantes títulos h2 y h3.
 
-empresa.html
+-empresa.html
 Description: ƎR Translations - Empresa en constante capacitación y crecimiento para otorgar un excelente servicio.
 Keywords: Traducciones, empresa, inlges, Historia
 Título: le agregue al título que ya tenía “Empresa”
