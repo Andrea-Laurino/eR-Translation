@@ -1,4 +1,4 @@
-el sitio en gral tiene aplicado flex, Grid, Bootstrap.
+El sitio en gral tiene aplicado flex, Grid, Bootstrap.
 tengo dos banderas con la idea de poder seleccionar el idioma en que quiero que se presente, en ambas imagenes utilice flex.
 Index: utilice Flex+Bootstrap también en el segundo parrafo, y Grid en el primer parrafo junto con la imagen. en todas las pag el logo esta linkeado al index.
 Contacto: coloque mapa, imagenes y datos de contacto con bootstrap.
