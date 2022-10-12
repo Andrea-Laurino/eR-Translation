@@ -85,7 +85,7 @@ form {
     color:$colorCuaternario;
     font-size: 25px;
     font-family: 'Source Serif Pro', serif;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -96,17 +96,15 @@ form {
     }
     div{
         color: $colorPrincipal;
-
         text-align: center;
         font-size: xx-large;
-        padding: 30px;
     }
     h4{
         color: #26678f;
         text-align: center;
         font-size: 25px;
         justify-content: center;
-        padding: 20px;  
+        padding: 5px;  
     }
     h5{
         color: #ccc;

@@ -1,4 +1,4 @@
-el sitio lo hice bilingue ya que era de una traductora de ingles. lo realice linkeando y tengo 10 paginas una en español y otra en ingles, con respecto al contenido y la gramatica en ingles estoy esperando recibir la aprobacion de la traductora dueña del sitio, esta en proseso de actualizacion pero no queria dejar de presentarlo.
+el sitio lo hice bilingue ya que es de una traductora de ingles, lo realice linkeando y tengo 10 paginas, 5 en español y otras 5 en ingles, con respecto al contenido y la gramatica en ingles estoy esperando recibir la aprobacion de la clienta, solo el Index esta corregido por el momento, esta en proseso de actualizacion pero no queria dejar de presentarlo.
 
 El sitio en gral tiene aplicado flex, Grid, Bootstrap.
 tengo dos banderas con la idea de poder seleccionar el idioma en que quiero que se presente, en ambas imagenes utilice flex.

@@ -43,7 +43,6 @@
     color: $colorPrincipal;
     &-secondary{
         font-size: 18px;
-        margin-top: 8px;
         height: 90%;
         --bs-btn-color: rgb(16, 79, 95);
         --bs-btn-bg: $colorSecundario;
@@ -125,9 +124,7 @@
     max-width: 80%;
     height: auto;
 }
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    width: 80%;
-}
+
 .input-group{
     font-family: 'Source Serif Pro', serif;
     font-size: 20px;

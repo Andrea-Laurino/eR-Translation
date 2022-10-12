@@ -1,8 +1,7 @@
 .contact_contenedor{
-    flex-wrap: nowrap;
+
     iframe{
-        width: 100%;
-        height: 350px;
+        border-radius: 5px ;
     }
     .contacto{
     color: $colorPrincipal;

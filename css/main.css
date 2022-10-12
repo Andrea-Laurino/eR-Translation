@@ -24,17 +24,16 @@
   flex-wrap: wrap;
   display: grid;
   grid-template-rows: auto auto; }
-
-.video {
-  width: 100%;
-  padding: 20px; }
-
-.texto {
-  font-size: x-large;
-  font-weight: 400;
-  padding: 3px; }
-  .texto h2 {
-    font-weight: 600; }
+  .indexFlex .video {
+    width: 100%;
+    padding: 20px; }
+  .indexFlex .texto {
+    font-size: x-large;
+    font-weight: 400;
+    padding: 3px; }
+    .indexFlex .texto h2 {
+      font-weight: 600;
+      font-size: xx-large; }
 
 .navbar-toggler {
   font-size: 15px;
@@ -51,17 +50,24 @@
   background-image: url(../imagenes/menu1.png); }
 
 .nav-link {
-  color: #bee9e8;
-  background-color: #26678f;
-  border-color: #174144;
-  font-size: medium;
-  width: 12rem;
-  margin-top: 2px;
-  border-radius: 5px;
+  color: #1b4965;
+  font-size: large;
+  margin-bottom: 8px;
   text-align: center; }
-  .nav-link:focus, .nav-link:hover {
-    color: #bee9e8; }
 
+/*.nav-link {
+        color: $colorTerciario;
+        background-color:#26678f;
+        border-color: #174144;
+        font-size: large;
+        width: 130px;
+        margin-bottom: 8px;
+        border-radius: 5px;
+        text-align: center;
+        &:focus, &:hover {
+                color: $colorTerciario;
+        }
+    }*/
 /*footer*/
 /*:::::Pie de Pagina*/
 .pie-pagina {
@@ -78,7 +84,7 @@
     text-decoration: none; }
     .pie-pagina .grupo-1 .box .menu {
       color: #62b6cb;
-      margin-bottom: 25px;
+      margin-right: 25px;
       font-size: 25px;
       display: flex;
       flex-direction: column;
@@ -88,7 +94,7 @@
         font-size: 400; }
     .pie-pagina .grupo-1 .box h2 {
       color: #1b4965;
-      margin-bottom: 10px; }
+      margin-right: 10px; }
     .pie-pagina .grupo-1 .red-social a {
       display: inline-block;
       text-decoration: none;
@@ -96,7 +102,7 @@
       height: 55px;
       line-height: 55px;
       color: #fff;
-      margin-right: 10px;
+      margin-right: 25px;
       background-color: #1b4965;
       text-align: center;
       transition: all 300ms ease; }
@@ -109,6 +115,22 @@
     color: #fff; }
     .pie-pagina .grupo-2 small {
       font-size: 15px; }
+
+.fa.fa-facebook:before {
+  content: "\f39e";
+  font-size: x-large; }
+
+.fa-google:before {
+  content: "\f1a0";
+  font-size: x-large; }
+
+.fa-twitter:before {
+  content: "\f099";
+  font-size: x-large; }
+
+.fa-instagram:before {
+  content: "\f16d";
+  font-size: x-large; }
 
 /*:::::boton whatsapp:::::*/
 .btn-wsp {
@@ -132,26 +154,24 @@
     color: #0cd34b;
     background: #fff; }
 
-.contact_contenedor {
-  flex-wrap: nowrap; }
-  .contact_contenedor iframe {
-    width: 100%;
-    height: 350px; }
-  .contact_contenedor .contacto {
+.contact_contenedor iframe {
+  border-radius: 5px; }
+
+.contact_contenedor .contacto {
+  color: #1b4965;
+  font-size: 20px;
+  font-family: 'Source Serif Pro', serif;
+  display: flex;
+  flex-direction: column; }
+  .contact_contenedor .contacto p {
     color: #1b4965;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
+    padding: 5px;
     font-family: 'Source Serif Pro', serif;
-    display: flex;
-    flex-direction: column; }
-    .contact_contenedor .contacto p {
-      color: #1b4965;
-      font-size: 15px;
-      text-align: left;
-      font-weight: 600;
-      padding: 5px;
-      font-family: 'Source Serif Pro', serif;
-      width: 80%;
-      height: 150px; }
+    width: 80%;
+    height: 150px; }
 
 .colorH2 {
   color: #5fa8d3;
@@ -322,7 +342,6 @@
   color: #1b4965; }
   .btn-secondary {
     font-size: 18px;
-    margin-top: 8px;
     height: 90%;
     --bs-btn-color: rgb(16, 79, 95);
     --bs-btn-bg: $colorSecundario;
@@ -395,9 +414,6 @@
   margin-top: 15px;
   max-width: 80%;
   height: auto; }
-
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  width: 80%; }
 
 .input-group {
   font-family: 'Source Serif Pro', serif;
@@ -489,7 +505,7 @@ form {
   color: #5fa8d3;
   font-size: 25px;
   font-family: 'Source Serif Pro', serif;
-  padding: 20px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -500,14 +516,13 @@ form {
   .nuestroStaff div {
     color: #1b4965;
     text-align: center;
-    font-size: xx-large;
-    padding: 30px; }
+    font-size: xx-large; }
   .nuestroStaff h4 {
     color: #26678f;
     text-align: center;
     font-size: 25px;
     justify-content: center;
-    padding: 20px; }
+    padding: 5px; }
   .nuestroStaff h5 {
     color: #ccc;
     background-color: #444; }
@@ -534,34 +549,35 @@ form {
     width: 100%;
     padding: 9px; } }
 
+@media screen and (min-width: 992px) {
+  .nav-link {
+    color: #bee9e8;
+    background-color: #26678f;
+    border-color: #44babe;
+    border-radius: 5px;
+    transition: all 400ms ease; }
+    .nav-link:hover {
+      color: #bee9e8;
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-3%); } }
+
 @media screen and (min-width: 1024px) {
   .indexFlex {
     grid-gap: 10px; }
     .indexFlex p {
-      font-size: larger;
       padding: 10px; }
-  .nav-link {
-    flex-direction: end; }
   .video {
     padding: 10px; }
   .texto {
-    font-size: large;
     padding: 5px; }
     .texto h2 {
       font-weight: 700; } }
 
 @media screen and (min-width: 1440px) {
-  .nav-link {
-    color: #bee9e8;
-    background-color: #26678f;
-    border-color: #44babe; }
-    .nav-link:focus, .nav-link:hover {
-      color: #bee9e8; }
   .indexFlex {
     grid-template-columns: 55% 45%;
     grid-gap: 15px; }
   .texto {
-    font-size: medium;
     width: 100%;
     padding: 10px; }
     .texto h2 {
@@ -595,26 +611,20 @@ form {
   .h1 {
     font-size: 40px; }
   .contacto {
-    height: 200px; }
+    padding-top: 10px; }
     .contacto p {
       font-size: medium; } }
 
 @media screen and (max-width: 1024px) {
-  .contact_contenedor iframe {
-    height: 750px;
-    width: 900px; }
+  .contact_contenedor .iframe {
+    height: 450px; }
   .contacto p {
     font-size: large; } }
 
 /*servicios*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .h2, h2 {
     font-size: 1.3em; } }
-
-@media screen and (min-width: 650px) {
-  .presu {
-    display: grid;
-    grid-template-columns: 50% 50%; } }
 
 @media screen and (min-width: 425px) {
   .img-thumbnail {
@@ -647,3 +657,6 @@ html {
 .imagen1 {
   margin: 50px, 25px, 15px, 10px;
   display: inline-block; }
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 90%; }

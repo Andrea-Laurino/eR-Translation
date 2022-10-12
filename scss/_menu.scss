@@ -16,19 +16,23 @@
     flex-wrap: wrap;
     display: grid;
     grid-template-rows: auto auto;
+    .video{
+        width: 100%;
+        padding:20px;
 }
-.video{
-    width: 100%;
-    padding:20px ;
+    .texto{
+        font-size: x-large;
+        font-weight: 400;
+        padding: 3px;
+        h2{
+            font-weight: 600;
+            font-size: xx-large;
+        }
 }
-.texto{
-    font-size: x-large;
-    font-weight: 400;
-    padding: 3px;
-    h2{
-        font-weight: 600;
-    }
+
 }
+
+
 .navbar-toggler {
         font-size: 15px;
         line-height: 1rem;
@@ -44,15 +48,25 @@
             background-image: url(../imagenes/menu1.png);
     }
 .nav-link {
+        color: $colorPrincipal;
+        font-size: large;
+        margin-bottom: 8px;
+        text-align: center;
+        
+        }
+  
+    
+    /*.nav-link {
         color: $colorTerciario;
         background-color:#26678f;
         border-color: #174144;
-        font-size: medium;
-        width: 12rem;
-        margin-top: 2px;
+        font-size: large;
+        width: 130px;
+        margin-bottom: 8px;
         border-radius: 5px;
         text-align: center;
         &:focus, &:hover {
                 color: $colorTerciario;
         }
-} 
+    }*/
+    

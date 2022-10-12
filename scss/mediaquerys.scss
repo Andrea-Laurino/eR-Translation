@@ -28,22 +28,32 @@
     }
    
 }
+@media screen and (min-width:992px){
+    .nav-link {
+        color:$colorTerciario;
+        background-color:#26678f;
+        border-color: #44babe;
+        border-radius: 5px;
+        transition: all 400ms ease;
+        &:hover {
+            color: $colorTerciario;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+            transform: translateY(-3%);
+        }
+}
+}
 @media screen and (min-width:1024px){
     .indexFlex{
         grid-gap: 10px;
         p{
-            font-size: larger;
             padding: 10px;
         }
     }
-    .nav-link {
-        flex-direction: end;
-    }
+    
     .video{
         padding: 10px;
     }
     .texto{
-        font-size: large;
         padding: 5px;
         h2{
             font-weight: 700;
@@ -51,20 +61,13 @@
     }
 }
 @media screen and (min-width:1440px){
-    .nav-link {
-        color:$colorTerciario;
-        background-color:#26678f;
-        border-color: #44babe;
-        &:focus, &:hover {
-            color: $colorTerciario;
-        }
-    }
+    
+    
     .indexFlex{
         grid-template-columns: 55% 45%;
         grid-gap: 15px;
     }
     .texto {
-        font-size: medium;
         width: 100%;
         padding:10px;
         h2{
@@ -108,35 +111,31 @@
         font-size: 40px;
     }
     .contacto{
-        height: 200px;
+        padding-top: 10px;
         p{
              font-size: medium;
         }
     }
+         
 }
 @media screen and (max-width:1024px){
     .contact_contenedor{
-        iframe{
-            height: 750px;
-            width: 900px;}
+        .iframe{
+            height: 450px;
+        }
     }
-    .contacto{
+        .contacto{
         p{
             font-size: large;
         }
     }
 }
 /*servicios*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
     .h2, h2 {
         font-size: 1.3em;
     }
-}   
-@media screen and (min-width: 650px) {
-    .presu{
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
+    
 
 }
 @media screen and (min-width: 425px) {
