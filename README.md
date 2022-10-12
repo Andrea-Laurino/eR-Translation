@@ -1,7 +1,6 @@
-el sitio lo hice bilingue ya que es de una traductora de ingles, lo realice linkeando y tengo 10 paginas, 5 en español y otras 5 en ingles, con respecto al contenido y la gramatica en ingles estoy esperando recibir la aprobacion de la clienta, solo el Index esta corregido por el momento, esta en proseso de actualizacion pero no queria dejar de presentarlo.
+El sitio lo hice bilingue ya que es de una traductora de ingles, lo realice linkeando y tengo 10 paginas, 5 en español y otras 5 en ingles, con respecto al contenido y la gramatica en ingles estoy esperando recibir la aprobacion de la clienta, solo el Index esta corregido por el momento, esta en proseso de actualizacion pero no queria dejar de presentarlo.
 
-El sitio en gral tiene aplicado flex, Grid, Bootstrap.
-tengo dos banderas con la idea de poder seleccionar el idioma en que quiero que se presente, en ambas imagenes utilice flex.
+En gral tiene aplicado flex, Grid, Bootstrap.
 Index: utilice Flex+Bootstrap también en el segundo parrafo, y Grid en el primer parrafo junto con la imagen. en todas las pag el logo esta linkeado al index.
 Contacto: coloque mapa, imagenes y datos de contacto con bootstrap.
 Empresa: acomode con flex la imagen con el texto de nuestra historia, también realice una galeria con grid.
